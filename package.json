@@ -1,0 +1,30 @@
+{
+  "name": "systemflow-e1-inventory-oversell",
+  "version": "1.0.0",
+  "description": "Atomic Redis SETNX lease acquisition, saga rollback, and WebSocket real-time out-of-stock broadcast under extreme concurrency.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "distributed-systems",
+    "redis",
+    "locks",
+    "idempotency",
+    "websockets",
+    "concurrency",
+    "e-commerce"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "@types/node": "^22.10.1",
+    "ioredis": "^5.4.2"
+  }
+}
