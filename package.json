@@ -1,7 +1,7 @@
 {
-  "name": "systemflow-e1-inventory-oversell",
+  "name": "flash-sale-inventory-oversell-prevention",
   "version": "1.0.0",
-  "description": "Atomic Redis SETNX lease acquisition, saga rollback, and WebSocket real-time out-of-stock broadcast under extreme concurrency.",
+  "description": "High-throughput inventory reservation engine using atomic Redis leases (SETNX), distributed saga rollbacks, and WebSocket real-time out-of-stock broadcasts.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
